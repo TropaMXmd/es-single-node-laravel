@@ -11,7 +11,8 @@
 # Get inside app-test container 
  - docker exec -it test-app bash
 
-# And run the following commands
+  And run the following commands:
+  
  - php artisan migrate --seed (add migrate:fresh if already exists)
  - php artisan app:elasticsearch-mapping (create new index and add explicit mapping)
 
